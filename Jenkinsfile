@@ -56,7 +56,7 @@ pipeline
     
       	   steps
 		    {
-        			sh 'docker build -t qoentum:latest .'
+        			sh 'docker build -t iness22/qoentum:latest .'
       		    }
     	    }
 	    
