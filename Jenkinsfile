@@ -4,6 +4,12 @@ pipeline
 	
 	
     agent any 
+    environment
+	{
+		registry = "Qoentum"
+		registryCredential= 'docker-Hub'
+		dockerImage = ''
+	}
     
     stages {
 
